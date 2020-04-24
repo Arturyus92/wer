@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Заявка</title>
+</head>
+<body>
+<header><h1>Отправка заявки на конференцию</h1>
+</header>
+<main><form>
+<h2>Основные данные</h2>
+<h3>* Фамилия, имя, отчество:</h3>
+<input type="text" required="required" size="50" name="FIO">
+<h3>Дата рождения:</h3>
+<input type="date">
+<h3>Пол:</h3>
+<input type="radio" name="1">&nbsp;мужской&nbsp;&nbsp;
+<input type="radio" name="1">&nbsp;женский
+<h2>Данные для создания личного кабинета</h2>
+<h3>*Адрес электронной почты:</h3>
+<input type="email" required="required" name="mail">
+<h3>*Пароль для создания личного кабинета:</h3>
+<input type="password" required="required">
+<h3>*Подтверждение пароля:</h3>
+<input type="password" required="required">
+<h2>Материалы для конференции</h2>
+<h3>*Тема доклада:</h3>
+<input type="text" size="50" required="required" name="Thema">
+<h3>*Тезисы доклада(не более 1000 символов):</h3>
+<textarea cols="40" rows="6" required="required"></textarea>
+<h3>Файл презентации:</h3>
+<input type="file" name="File">
+<h2>Дополнительные опции</h2>
+<input id="2" type="checkbox">&nbsp;<label for="2">Проживание в отеле</label>
+<br><input id="3" checked="checked" type="checkbox">&nbsp;<label for="3">Завтрак</label>
+<br><input id="4" type="checkbox">&nbsp;<label for="4">Обед</label>
+<br><input id="5" type="checkbox">&nbsp;<label for="5">Ужин</label>
+<hr>
+<button>Отправить</button></form>
+<hr>
+<br>*Поля отмеченные звёздочкой, являются обязательными для заполнения
+</main>
+<footer></footer>
+</body>
+</html>
